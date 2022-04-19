@@ -1,0 +1,67 @@
+#wrapperhead {
+  text-align: left;
+  position: relative;
+  font-size: 1.4em;
+  margin-bottom:0px;
+  height:3.3em;
+  z-index:1;
+}
+
+#header {
+  background:#292c2f;
+  color: #fff;
+  height: 75px;
+  position: relative;
+}
+
+#header h1,#header h2 {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+}
+
+#header h1 {
+  top: 5px;
+  left: 8px;
+  height: 50px;
+  background: red;
+}
+
+#header h2 {
+  top: 20px;
+  left: 10px;
+}
+
+#headerlinks {
+  float: right;
+  font-size: 0.8em;
+  background: gold;
+  padding: 6px 6px 8px 10px;
+}
+
+#headerlinks a:link,#headerlinks a:visited,#headerlinks a:hover,#headerlinks a:active{
+  color: #fff;
+}
+
+#headersearch form {
+  padding: 0;
+  margin: 0;
+}
+
+#headersearch {
+  position: absolute;
+  top: 2em;
+  right: 5px;
+}
+
+#headersearch form input {
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+}
+
+#txtSearch {
+  height: 17px;
+  width: 115px;
+  border: 1px solid black;
+}
